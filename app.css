@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@100&family=Orbitron:wght@500&family=Poppins:wght@200;400;500&family=Ubuntu:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(#BD8D28, #442f02);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+.logo {
+    width: 13rem;
+    margin: 1vw;
+  }
+.playlist{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.celebration-title{
+    opacity: 0.8;
+    font-weight: 300;
+
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.time{
+    opacity: 0.7;
+    margin-left: 1rem;
+}
+.fa-circle{
+    font-size: 0.5rem;
+    margin-left: 1rem;
+    color: green;
+}
+.round-image {
+    width: 1.5rem;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
+.content{
+    background-image: linear-gradient(#30240a,#0e0900);
+    width: 100vw;
+    min-height: 80vh;
+    color: white;
+   padding: 1rem; 
+    
+}
+
+.upper_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.upper_section .left  i {
+    margin-right: 1rem;
+   
+}
+.upper_section .left .fa-circle-play {
+    font-size: 2.5rem;
+     color: rgb(14, 245, 14);
+     background-color: black;
+     border-radius: 50%;
+     cursor: pointer;
+}
+.upper_section .left .fa-heart {
+    font-size: 2rem;
+    color: rgb(14, 245, 14);
+    cursor: pointer;
+}
+.upper_section .left .fa-arrow-circle-down, .fa-ellipsis{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.right {
+    padding: 1rem;
+}
+.right i {
+  margin-right: 1rem;
+}
+.right .fa-caret-down{
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+.heading_container{
+    display: flex;
+    justify-content: space-between;
+}
+.album-date{
+    position: relative;
+    left: 4rem;
+}
+.headings-left {
+    margin: 0 1rem;
+}
+.heading-title{
+    margin-left: 0.5rem;
+}
+
+.headings-right{
+    width: 50%;
+    display: flex;;
+    justify-content: space-around;
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+    padding: 0.57rem 1rem;
+}
+.card-left {
+    width: 50vw;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.card-left .card_title p {
+   opacity: 0.7;
+}
+.cardImage {
+    width: 2.5rem;
+    height: 3rem;
+}
+.card-right {
+    /* background-color: red; */
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.card-right, .album, .date, .rating {
+    opacity: 0.7;
+}
+
+
+ @media only screen and (min-device-width: 481px) 
+ and (max-device-width: 1024px)  {
+    header h1 {
+        font-size: 2rem;
+    }
+    .round-image {
+        width: 1rem;
+    }
+    .heading_container{
+        font-size: 0.7rem;
+    }
+    
+    .upper_section{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .upper_section .left  i {
+        margin-right: 1rem;
+       
+    }
+    .upper_section .left .fa-circle-play {
+        font-size: 2.5rem; 
+    }
+    .upper_section .left .fa-heart {
+        font-size: 1.8rem;
+    }
+    .upper_section .left .fa-arrow-circle-down, .fa-ellipsis{
+        font-size: 1.6rem;
+    }
+    .card_container {
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+    }
+ 
+    .card-left {
+        width: 50vw;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .card-left .card_title h3 {
+        font-size: 1rem;
+    }
+    .card-right, .album, .date, .rating {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-device-width: 481px) 
+and (max-device-width: 816px){
+    header h1 {
+       
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 7rem;
+    }
+    .playlist{
+        margin-top: 0.6rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-bottom: 0rem;
+    }
+    .celebration-title{
+        opacity: 0.8;
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+    .likes {
+       font-size: 0.5rem;
+    }
+    .round-image{
+        width: 1rem;
+    }
+    .upper_section{
+        padding: 1rem 1rem;
+    }
+    .upper_section .left  i {
+        margin-right: 0.3rem;
+    }
+    .upper_section .left .fa-circle-play {
+        font-size: 1.7rem;
+    }
+    .upper_section .left .fa-heart {
+        font-size: 1.3rem;
+    }
+    .upper_section .left .fa-arrow-circle-down, .fa-ellipsis{
+        font-size: 1rem;
+    }
+    .right {
+        padding: 0rem;
+    }
+    .right i {
+      margin-right: 0rem;
+      font-size: 0.6rem;
+    }
+    .album-date{
+        position: relative;
+        left: 0rem;
+    }
+    .right .fa-caret-down{
+        margin-left: 0.2rem;
+    }
+    .custom {
+        font-size: 0.6rem;
+    }
+    
+    .heading_container{
+        font-size: 0.6rem;
+    }
+    .card_container {
+        display: flex;
+        align-items: center;
+        margin: 0.4rem 1rem;
+        font-size: 0.5rem;
+    }
+
+
+}
+@media only screen and (min-device-width: 200px) 
+ and (max-device-width: 480px){
+
+    header h1 {
+       font-size: 1.5rem;
+       margin-bottom: 0.3rem;
+    }
+    .logo {
+        width: 7rem;
+    }
+    .playlist{
+        margin-top: 0.6rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-bottom: 0rem;
+    }
+    .celebration-title{
+        opacity: 0.8;
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+    .likes {
+       font-size: 0.5rem;
+    }
+    .round-image{
+        width: 1rem;
+    }
+    .upper_section{
+        padding: 1rem 1rem;
+    }
+    .upper_section .left  i {
+        margin-right: 0.3rem;
+    }
+    .upper_section .left .fa-circle-play {
+        font-size: 1.7rem;
+    }
+    .upper_section .left .fa-heart {
+        font-size: 1.3rem;
+    }
+    .upper_section .left .fa-arrow-circle-down, .fa-ellipsis{
+        font-size: 1rem;
+    }
+    .right {
+        padding: 0rem;
+    }
+    .right i {
+      margin-right: 0rem;
+      font-size: 0.6rem;
+    }
+    .album-date{
+        position: relative;
+        left: 0rem;
+    }
+    .right .fa-caret-down{
+        margin-left: 0.2rem;
+    }
+    .custom {
+        font-size: 0.6rem;
+    }
+    
+    .heading_container{
+        font-size: 0.6rem;
+    }
+    .card_container {
+        display: flex;
+        align-items: center;
+        margin: 0.4rem 1rem;
+        font-size: 0.5rem;
+    }
+
+
+}
