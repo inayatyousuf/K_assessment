@@ -14,6 +14,9 @@ header {
     color: white;
     
 }
+body {
+    overflow-x: hidden;
+}
 .logo {
     width: 13rem;
     margin: 1vw;
